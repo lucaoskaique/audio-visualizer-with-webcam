@@ -1,1 +1,0 @@
-(()=>{const e=document.getElementById("video");navigator.getUserMedia({video:!0,audio:!1},(o=>{e.srcObject=o,e.addEventListener("loadeddata",(e=>{console.log("ready")}))}),(e=>{console.log(e)}))})();
