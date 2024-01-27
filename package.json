@@ -1,6 +1,7 @@
 {
   "name": "audio-visualizer-with-webcam",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +15,9 @@
   "license": "ISC",
   "dependencies": {
     "glslify": "^7.1.1",
-    "three": "^0.160.1",
+    "three": "^0.160.1"
+  },
+  "devDependencies": {
     "webpack": "^5.90.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1",
